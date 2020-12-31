@@ -9,6 +9,8 @@ public class Box {
     private Integer lucky_number;
 
     //构造宝箱函数
+
+
     public Box(int boxNumber, String selfHashValue, String preHashValue, Integer luckyNumber) {
         this.box_number = boxNumber;
         this.self_hash_value = selfHashValue;
